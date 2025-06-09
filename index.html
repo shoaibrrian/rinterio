@@ -42,13 +42,48 @@
 
     </header>
     <main>
-
+        <!-- connect section -->
+        <section class="bg-[url(assets/bg.jpg)] bg-no-repeat bg-cover ">
+            <div class="max-w-[970px] mx-auto px-5 py-10 lg:py-24">
+                <div class="text-center">
+                    <button class="bg-[#abef5f33] rounded-3xl px-4 py-2 font-bold border-none text-[#494949] mb-4"><i
+                            class="fa-solid fa-arrow-right mr-2 text-[#494949]"></i>Let’s Connect</button>
+                    <h3 class="font-extrabold text-[40px] mb-6">Let’s Discuss Next Project</h3>
+                    <p class="text-[#494949] font-medium max-w-2xl mx-auto mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+                <div class="grid lg:grid-cols-2 lg:gap-6">
+                    <input type="text" placeholder="First Name*"
+                        class="input rounded-[64px] p-5 border-none font-medium text-[#A0A0A0] w-full lg:w-[100%] mb-6 lg:mb-0" />
+                    <input type="text" placeholder="Last Name*"
+                        class="input rounded-[64px] p-5 border-none font-medium text-[#A0A0A0] w-full lg:w-[100%] mb-6 lg:mb-0" />
+                    <div>
+                        <input type="tel"
+                            class="input validator tabular-nums rounded-[64px] p-5 border-none font-medium text-[#A0A0A0] w-full lg:w-[100%]"
+                            required placeholder="Phone Number*" pattern="[0-9]*" minlength="11" maxlength="11"
+                            title="Must be 10 digits" />
+                        <p class="validator-hint">Must be 11 digits</p>
+                    </div>
+                    <div>
+                        <input
+                            class="input validator rounded-[64px] p-5 border-none font-medium text-[#A0A0A0] w-full lg:w-[100%]"
+                            type="email" required placeholder="@gmail.com" />
+                        <div class="validator-hint">Enter valid email address</div>
+                    </div>
+                </div>
+                <textarea
+                    class="textarea border-none rounded-[32px] p-5 font-medium text-[#A0A0A0] w-full h-[240px] mb-8"
+                    placeholder="Write your message here"></textarea>
+                <button class="btn bg-[#ABEF5F] rounded-[32px] px-5 py-7 flex text-xl font-extrabold border-none lg:mb-7 shadow-none w-full">Send Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-[100%] text-white text-base px-2 py-2 h-8 w-8"></i></button>
+            </div>
+        </section>
     </main>
-    <footer class="footer footer-horizontal footer-center bg-black text-white rounded p-5 lg:p-10">
+    <footer class="footer footer-horizontal footer-center bg-black text-white rounded px-5 py-10 lg:p-24">
         <div class="max-w-2xl mx-auto lg:mb-7">
             <h3 class="font-extrabold text-3xl flex items-center mb-4"><i
-                class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-[100%] text-black text-base px-2 py-2 mr-2 h-8 w-8"></i>Rinterio</h3>
-            <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-[100%] text-black text-base px-2 py-2 mr-2 h-8 w-8"></i>Rinterio
+            </h3>
+            <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <nav class="grid lg:grid-flow-col gap-6 lg:gap-32 font-medium lg:mb-7">
             <a class="link link-hover">Home</a>
@@ -57,7 +92,9 @@
             <a class="link link-hover">Blogs</a>
             <a class="link link-hover">Contact Us</a>
         </nav>
-        <button class="btn bg-[#ABEF5F] rounded-[32px] px-5 py-7 flex text-xl font-extrabold border-none lg:mb-7 shadow-none">Book Consult<i
+        <button
+            class="btn bg-[#ABEF5F] rounded-[32px] px-5 py-7 flex text-xl font-extrabold border-none lg:mb-7 shadow-none w-80 lg:w-auto">Book
+            Consult<i
                 class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-[100%] text-white text-base px-2 py-2 h-8 w-8"></i></button>
         <aside>
             <p>Copyright © 2025 - All right reserved by Rinterio</p>
