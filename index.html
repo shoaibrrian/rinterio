@@ -23,10 +23,16 @@
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/415b804cdc.js" crossorigin="anonymous"></script>
 
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+
 </head>
 
 <body class="manrope-font">
-    <header class="max-w-[1260px] mx-auto">
+    <header class="max-w-[1260px] mx-auto hide">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -52,7 +58,7 @@
                     </h3>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 pt-5">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
@@ -61,11 +67,13 @@
                     </ul>
                 </div>
                 <div class="navbar-end flex items-baseline gap-4 mt-12">
-                    <button class="">
+                    <button
+                        class="border-[1px] border-gray-200 rounded-[100%] flex items-center justify-center p-2 w-13 h-13">
                         <a href=""><i class="fa-solid fa-magnifying-glass text-2xl"></i></a>
                     </button>
-                    <button class="">
-                            <i class="fa-solid fa-cart-shopping text-2xl "></i>
+                    <button
+                        class="border-[1px] border-gray-200 rounded-[100%] p-2 flex items-center justify-center w-13 h-13">
+                        <i class="fa-solid fa-cart-shopping text-2xl "></i>
                     </button>
                     <button
                         class="btn bg-[#ABEF5F] rounded-[32px] px-5 py-7 flex text-xl font-extrabold border-none lg:mb-7 shadow-none w-80 lg:w-auto">Book
@@ -90,7 +98,7 @@
     </header>
     <main>
         <!-- about us section -->
-        <section class="bg-[#4949491f] pb-28">
+        <section class="bg-[#4949491f] pb-28 hide">
             <img src="assets/Vector.png" alt="" class="pl-20 pt-10">
             <div>
                 <div class="hero pb-24 px-32">
@@ -152,7 +160,7 @@
         </section>
 
         <!-- works section -->
-        <section class="bg-[#4949491f]">
+        <section class="bg-[#4949491f] hide">
             <div class="text-center">
                 <button class="bg-base-200 rounded-3xl px-4 py-2 font-bold border-none text-[#494949] mb-4"><i
                         class="fa-solid fa-arrow-right mr-2 text-[#494949]"></i>How we works</button>
@@ -197,7 +205,7 @@
         </section>
 
         <!-- latest work section -->
-        <section>
+        <section class="hide">
             <div class="text-center pt-24">
                 <button class="bg-[#abef5f33] rounded-3xl px-4 py-2 font-bold border-none text-[#494949] mb-4"><i
                         class="fa-solid fa-arrow-right mr-2 text-[#494949]"></i>Explore our Latest works
@@ -212,7 +220,8 @@
                         <img src="assets/img1.png" alt="" class="h-full">
                         <div>
                             <h3 class="font-extrabold text-2xl text-[#494949] mb-4">Commercial</h3>
-                            <p class="text-[#737373] font-medium mb-10">The barn house captivates with its blend of rustic <br>charm and modern. The barn house
+                            <p class="text-[#737373] font-medium mb-10">The barn house captivates with its blend of
+                                rustic <br>charm and modern. The barn house
                                 captivates with its blend of rustic charm and modern .</p>
                             <a href="" class="font-bold flex items-center gap-2 text-xl">View Details<i
                                     class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-[100%] text-black text-base px-2 py-2 mr-2 h-8 w-8"></i></a>
@@ -230,7 +239,8 @@
                         <img src="assets/img4.png" alt="">
                         <div>
                             <h3 class="font-extrabold text-2xl text-[#494949] mb-4">Commercial</h3>
-                            <p class="text-[#737373] font-medium mb-5">The barn house captivates with its blend of rustic charm and modern. The barn house
+                            <p class="text-[#737373] font-medium mb-5">The barn house captivates with its blend of
+                                rustic charm and modern. The barn house
                                 captivates with its blend of rustic charm and modern .</p>
                             <a href="" class="font-bold flex items-center gap-2 text-xl">View Details<i
                                     class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-[100%] text-black text-base px-2 py-2 mr-2 h-8 w-8"></i></a>
@@ -244,7 +254,7 @@
         </section>
 
         <!-- news section -->
-        <section class=" bg-[#4949491f]">
+        <section class=" bg-[#4949491f] hide">
             <div class="text-center max-w-fit mx-auto px-5 py-10 lg:py-24">
                 <button class="bg-[#abef5f33] rounded-3xl px-4 py-2 font-bold border-none text-[#494949] mb-4"><i
                         class="fa-solid fa-arrow-right mr-2 text-[#494949]"></i>Rinterio News</button>
